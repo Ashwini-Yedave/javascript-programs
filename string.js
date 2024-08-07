@@ -31,3 +31,9 @@ console.log("after triming of string length :",dayAfterTrimLength);
 
 //how to calculate the reoved the character
 console.log("removed character leading and trilling :",dayLength-dayAfterTrimLength);
+
+//slice() whicth is used for get particular part of the string
+//start no is inculded and end no is exculsive
+var greet="Good Evening Ashwini";
+var sliceGreet =greet.slice(3,7);
+console.log("Slice of string 3 to 7 :",sliceGreet);
