@@ -9,3 +9,35 @@ const obj2={
 
 const mergeObj={...obj1,...obj2}
 console.log(mergeObj);
+
+//==============================================================
+//Q. i want those object inside that   isNotified: true, how to get in javascript
+const data = {
+    "totalCount": 18,
+    "index": 1,
+    "pageSize": 100,
+    "pageCount": 1,
+    "supplierDetails": [
+      {
+        "id": 1,
+        "supplierId": 12930,
+        "isNotified": true,
+      },
+      {
+        "id": 2,
+        "supplierId": 12930,
+        "isNotified": false,
+      },
+      {
+        "id": 3,
+        "supplierId": 12930,
+        "isNotified": true,
+      }
+    ],
+    "result": 1
+  };
+  
+  const notifiedSuppliers = data.supplierDetails.filter(supplier => supplier.isNotified === true);
+  
+  console.log(notifiedSuppliers);
+  
