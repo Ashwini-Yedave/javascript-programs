@@ -1,0 +1,11 @@
+const obj1={
+  name:"anis",
+  email:"anis@gmail.com"
+}
+
+const obj2={
+  phone:8788787878,
+}
+
+const mergeObj={...obj1,...obj2}
+console.log(mergeObj);
