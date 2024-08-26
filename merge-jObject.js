@@ -5,10 +5,14 @@ const obj1={
 
 const obj2={
   phone:8788787878,
+
 }
 
 const mergeObj={...obj1,...obj2}
 console.log(mergeObj);
+
+
+
 
 //==============================================================
 //Q. i want those object inside that   isNotified: true, how to get in javascript

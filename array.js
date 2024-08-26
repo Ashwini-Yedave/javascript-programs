@@ -21,7 +21,6 @@ const fruit=[12,true,34.4,"ashu"];
 //     console.log(fruit[i]);
 // }
 const names=[];
-users.forEach((user) =>{
-    names.push()
-})
+
+
 console.log("hello");
